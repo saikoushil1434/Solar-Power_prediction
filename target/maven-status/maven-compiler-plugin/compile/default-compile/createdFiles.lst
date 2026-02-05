@@ -1,8 +1,0 @@
-com\solarprediction\SecurityConfig.class
-com\solarprediction\CSVReader.class
-com\solarprediction\WebConfig.class
-com\solarprediction\LinearRegressionModel.class
-com\solarprediction\PredictionController.class
-com\solarprediction\SolarData.class
-com\solarprediction\Main.class
-com\solarprediction\WebConfig$1.class
