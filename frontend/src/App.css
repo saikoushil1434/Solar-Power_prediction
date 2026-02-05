@@ -1,0 +1,92 @@
+/* 🌞 Modern Solar Power Predictor Styling */
+
+/* Align all content centrally */
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fff7e6, #ffe7cc);
+  font-family: 'Inter', sans-serif;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Smooth spin for sun icon */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 8s linear infinite;
+}
+
+/* Floating prediction card animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Soft glowing effect for prediction result */
+.glow {
+  box-shadow: 0 0 25px rgba(255, 193, 7, 0.6);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Button hover effects */
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(255, 183, 0, 0.4);
+}
+
+/* Input styling for a smooth look */
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(251, 191, 36, 0.4);
+  border-color: #fbbf24;
+}
+
+/* Custom smooth transitions */
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Scrollbar styling for clean UI */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #fbbf24, #f59e0b);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff8e1;
+}
+
+/* Optional background fade for dark/light theme transitions */
+@keyframes backgroundShift {
+  0% {
+    background: linear-gradient(135deg, #fff7e6, #ffe7cc);
+  }
+  100% {
+    background: linear-gradient(135deg, #ffe7cc, #ffd580);
+  }
+}
+
+.animate-bg-shift {
+  animation: backgroundShift 5s ease-in-out infinite alternate;
+}
