@@ -98,19 +98,25 @@ function App() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.6 }}
       >
-        <label className="block text-lg font-semibold text-gray-700 mb-2">
-          Enter Solar Radiation (W/m²)
-        </label>
+        <label
+  htmlFor="radiation"
+  className="block text-lg font-semibold text-gray-700 mb-2"
+>
+  Enter Solar Radiation (W/m²)
+</label>
 
-        <input
-          type="number"
-          step="any"
-          value={radiation}
-          onChange={(e) => setRadiation(e.target.value)}
-          placeholder="e.g. 1361"
-          required
-          className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-amber-500"
-        />
+<input
+  id="radiation"
+  name="radiation"
+  type="number"
+  step="any"
+  value={radiation}
+  onChange={(e) => setRadiation(e.target.value)}
+  placeholder="e.g. 1361"
+  required
+  className="w-full border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-amber-500"
+/>
+
 
         <motion.button
           type="submit"
