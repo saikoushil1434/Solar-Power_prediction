@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Solar-Power_prediction/static/css/main.80ef2398.css",
+    "main.js": "/Solar-Power_prediction/static/js/main.aeea1f2c.js",
+    "static/js/453.8701dc61.chunk.js": "/Solar-Power_prediction/static/js/453.8701dc61.chunk.js",
+    "index.html": "/Solar-Power_prediction/index.html",
+    "main.80ef2398.css.map": "/Solar-Power_prediction/static/css/main.80ef2398.css.map",
+    "main.aeea1f2c.js.map": "/Solar-Power_prediction/static/js/main.aeea1f2c.js.map",
+    "453.8701dc61.chunk.js.map": "/Solar-Power_prediction/static/js/453.8701dc61.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80ef2398.css",
+    "static/js/main.aeea1f2c.js"
+  ]
+}
